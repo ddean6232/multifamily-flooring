@@ -407,6 +407,75 @@ nav ul li a:hover {
     color: var(--primary);
 }
 
+/* FAQ Section */
+.faq {
+    padding: 8rem 0;
+    background-color: var(--white);
+}
+
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faq-item {
+    margin-bottom: 1rem;
+    border: 1px solid #eee;
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    background: var(--bg-light);
+}
+
+.faq-question {
+    width: 100%;
+    padding: 1.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: none;
+    border: none;
+    font-family: inherit;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--primary);
+    text-align: left;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.faq-question:hover {
+    background-color: rgba(184, 201, 176, 0.1);
+}
+
+.faq-question i {
+    width: 20px;
+    height: 20px;
+    transition: transform 0.3s ease;
+}
+
+.faq-question[aria-expanded="true"] i {
+    transform: rotate(180deg);
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease-out;
+    background: var(--white);
+}
+
+.faq-answer p {
+    padding: 0 2rem 1.5rem;
+    margin: 0;
+    font-size: 1rem;
+    color: var(--text-muted);
+}
+
+.faq-item.active .faq-answer {
+    max-height: 500px; /* Adjust as needed */
+    padding-top: 1rem;
+}
+
 /* Contact Section */
 .contact {
     padding: 8rem 0;
