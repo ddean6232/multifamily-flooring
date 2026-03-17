@@ -1,0 +1,27 @@
+<svg width="100" height="100" viewBox="0 0 100 80" xmlns="http://www.w3.org/2000/svg">
+  <!-- Multifamily Flooring Vector Logo -->
+  <g transform="translate(50, 45)">
+    <!-- Symmetric Herringbone Planks -->
+    
+    <!-- Outer Left (Light) -->
+    <rect x="-42" y="-12" width="28" height="10" fill="#B8C9B0" transform="rotate(-45)" rx="1"/>
+    
+    <!-- Mid Left (Medium) -->
+    <rect x="-28" y="-4" width="28" height="10" fill="#5B7258" transform="rotate(-45)" rx="1"/>
+    
+    <!-- Center Left (Dark) -->
+    <rect x="-14" y="4" width="28" height="10" fill="#2D4330" transform="rotate(-45)" rx="1"/>
+    
+    <!-- Outer Right (Light) -->
+    <rect x="14" y="-12" width="28" height="10" fill="#B8C9B0" transform="rotate(45)" rx="1"/>
+    
+    <!-- Mid Right (Medium) -->
+    <rect x="0" y="-4" width="28" height="10" fill="#5B7258" transform="rotate(45)" rx="1"/>
+    
+    <!-- Center Right (Dark) -->
+    <rect x="-14" y="4" width="28" height="10" fill="#2D4330" transform="rotate(45)" rx="1"/>
+    
+    <!-- The Center Overlap (Apex) -->
+    <!-- Note: In herringone, one plank usually covers the other. I'll add a subtle highlight or shadow if needed, but simple overlap is cleaner for a logo. -->
+  </g>
+</svg>
