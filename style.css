@@ -122,7 +122,7 @@ p {
     top: 0;
     width: 100%;
     z-index: 1000;
-    padding: 1.5rem 0;
+    padding: 1rem 0;
     background-color: rgba(250, 251, 250, 0.8);
     backdrop-filter: blur(10px);
     border-bottom: 1px solid rgba(0,0,0,0.05);
@@ -142,18 +142,18 @@ p {
 }
 
 .logo img {
-    height: 40px;
+    height: 60px;
 }
 
 .logo span {
-    font-size: 0.9rem;
+    font-size: 1rem;
     line-height: 1;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
 .logo strong {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: var(--primary);
 }
 
